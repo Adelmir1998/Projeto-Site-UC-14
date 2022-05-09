@@ -49,6 +49,7 @@ em linha com display inline-block */
   height: 40px;
 }
 /* ========== Formatação da IMG Home ========== */
+
 #imghome {
   text-align: center;
 }
@@ -90,5 +91,26 @@ main p {
   font-size: 12pt;
   /* Espaçamento entre linhas om o comando line-height */
   line-height: 30px;
+  color: white;
 }
 /*========== Fim da Formatação IMG HOME ========== */
+
+/* Início da Formatação da Pagína DICAS */
+#dicas {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+#dicas img {
+  height: 90px;
+  width: 90px;
+}
+main h1 {text-align: center;}
+
+#texto-dicas1{
+  color: black;
+}
+main{
+ background-image: url("https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+ 
+}
