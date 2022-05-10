@@ -1,7 +1,23 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
-}
-.navbar {
+} */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
+header > div{
+    width: 80%;
+    /* background: red; */
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul{display: flex; justify-content: center; max-width: 1000%;}
+nav > ul > li > a{color: #fff !important;padding: 20px !important;}
+.navbar-brand{display: flex; align-items: center; justify-content: center; color: #fff;}
+.navbar-brand > img{margin-right: 10px;}
