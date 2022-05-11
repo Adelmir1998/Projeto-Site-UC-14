@@ -52,6 +52,7 @@ h1 { /* h1 titúlo home */
     text-align: center;
     text-transform: uppercase;
 }
+
 main { 
     height: 500px;
     display: flex;

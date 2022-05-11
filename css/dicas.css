@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header > div{
+    width: 80%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul{display: flex; justify-content: center; max-width: 1000%;}
+nav > ul > li > a{color: #fff !important;padding: 20px !important;}
+.navbar-brand{display: flex; align-items: center; justify-content: center; color: #fff;}
+.navbar-brand > img{margin-right: 10px;}
+
+h2 {
+    color: red;
+    font-family: verdana;
+    font-size: 18pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main { 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    Align-items: center
+}
+
+#dicas1{
+    display: flex; /*deixa os elementos em linha (Row) */
+    flex-direction: column; /*deixa os elementos em colunas, um abaixo do outro */
+    justify-content: space-between;
+    width: 70%;
+}
