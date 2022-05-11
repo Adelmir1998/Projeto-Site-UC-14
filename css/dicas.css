@@ -26,16 +26,36 @@ h2 {
 }
 
 main { 
-    height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    Align-items: center
+    align-items: center
 }
 
-#dicas1{
+.dicas{
     display: flex; /*deixa os elementos em linha (Row) */
     flex-direction: column; /*deixa os elementos em colunas, um abaixo do outro */
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.dicas > h4,.dicas1 > p {
+    font-family: verdana;    
+}
+
+.dicas > h4 {
+    color: #fff;
+}
+.dicas > p {
+    color: rgb(14, 221, 169);
 }
