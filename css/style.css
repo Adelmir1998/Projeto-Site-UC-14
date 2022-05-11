@@ -35,13 +35,15 @@ nav > ul > li > a{color: #fff !important;padding: 20px !important;}
 }
 #home-lorem > div{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 85%;
   align-items: center;
+  flex-wrap: wrap;
 }
 #home-lorem > div > img{
   max-width: 400px;
   border-radius: 21%;
+  padding: 20px;
 }
 h1 { /* h1 titúlo home */
     color: red;
