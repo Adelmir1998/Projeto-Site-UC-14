@@ -21,3 +21,76 @@ nav > ul{display: flex; justify-content: center; max-width: 1000%;}
 nav > ul > li > a{color: #fff !important;padding: 20px !important;}
 .navbar-brand{display: flex; align-items: center; justify-content: center; color: #fff;}
 .navbar-brand > img{margin-right: 10px;}
+
+#home-lorem { /* lorem home */
+    color: #fff;
+    text-align: center;
+    font-family: verdana;
+    width: 70%;
+}
+h1 { /* h1 titúlo home */
+    color: red;
+    font-family: verdana;
+    font-size: 18pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+main { 
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    Align-items: center
+}
+
+/* Início do Contato */
+
+h2 {
+    color: #fff;
+}
+
+main form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px white;
+  }
+  
+  main form input,
+  main form select,
+  main form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: verdana;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    outline: 0px;
+  }
+  main form input {
+    border-bottom: 1px solid silver;
+  }
+  main form input[type="tel"],
+  main form select {
+    width: 49%;
+  }
+  main form textarea {
+    height: 200px;
+  }
+  main form input[type="submit"] {
+    position: relative;
+    margin-left: 40%;
+    width: 20%;
+    background-color: red;
+    color:white;
+    border: 0px;
+    transition: ease 0.5s;
+  }
+  main form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: black;
+  }
+  
+  /* Fim do Contato */
